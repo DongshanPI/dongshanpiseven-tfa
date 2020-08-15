@@ -1,5 +1,4 @@
+#Yocto GCC 9.3
+source  /home/book/100ask_stm32mp157_pro-sdk/ToolChain/openstlinux_eglfs-linux-gnueabi/environment-setup-cortexa7t2hf-neon-vfpv4-ostl-linux-gnueabi
 
-#source /opt/st/myir/2.6-snapshot/environment-setup-cortexa7t2hf-neon-vfpv4-openstlinux_weston-linux-gnueabi
-source /opt/st/myir/2.6-snapshot/environment-setup-cortexa7t2hf-neon-vfpv4-ostl-linux-gnueabi
-
-make -f $PWD/../Makefile.sdk all
+make -f $PWD/./Makefile.sdk all
