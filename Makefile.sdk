@@ -21,7 +21,7 @@ TF_A_CONFIG ?=  trusted  optee  serialboot
 # Set specific OEMAKE config
 TF_A_CONFIG_OEMAKE =  trusted,"AARCH32_SP=sp_min" optee,"AARCH32_SP=optee" serialboot,"AARCH32_SP=sp_min"
 # Set default TFA_DEVICETREE
-TFA_DEVICETREE ?=  stm32mp157c-ya157c-512d-v1 stm32mp157c-ya157c-512d-v2 
+TFA_DEVICETREE ?=  stm32mp157c-100ask-512d-v1 
 
 #Set default TF_A_ENABLE_DEBUG_WRAPPER
 TF_A_ENABLE_DEBUG_WRAPPER ?= 1
